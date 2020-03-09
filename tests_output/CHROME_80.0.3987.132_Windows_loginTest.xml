@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="loginTest"
+    errors="1" failures="0" hostname="" id="" package="loginTest" skipped="0"
+    tests="1" time="0.01000" timestamp="">
+  
+    <testcase name="Login test case" classname="loginTest" time="0.01000" assertions="0">
+      <error message="browser.page.login is not a function" type="error">TypeError: browser.page.login is not a function
+    at Object.Login test case (C:\Users\Luvo\Desktop\SQN\Assessment\tests\loginTest.js:6:33)
+    at Context.call (C:\Users\Luvo\Desktop\SQN\Assessment\node_modules\nightwatch\lib\testsuite\context.js:379:35)
+    at TestCase.run (C:\Users\Luvo\Desktop\SQN\Assessment\node_modules\nightwatch\lib\testsuite\testcase.js:49:31)
+    at Runnable.__runFn (C:\Users\Luvo\Desktop\SQN\Assessment\node_modules\nightwatch\lib\testsuite\index.js:374:80)
+    at Runnable.run (C:\Users\Luvo\Desktop\SQN\Assessment\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\Users\Luvo\Desktop\SQN\Assessment\node_modules\nightwatch\lib\testsuite\index.js:441:33)
+    at TestSuite.handleRunnable (C:\Users\Luvo\Desktop\SQN\Assessment\node_modules\nightwatch\lib\testsuite\index.js:446:18)
+    at C:\Users\Luvo\Desktop\SQN\Assessment\node_modules\nightwatch\lib\testsuite\index.js:374:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DefaultRunner.runTestSuite (C:\Users\Luvo\Desktop\SQN\Assessment\node_modules\nightwatch\lib\runner\test-runners\default.js:68:7)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: browser.page.login is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config[0m
+[0;90m       at Object.Login test case (C:\Users\Luvo\Desktop\SQN\Assessment\tests\loginTest.js:6:33)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

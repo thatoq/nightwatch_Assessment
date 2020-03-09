@@ -1,0 +1,19 @@
+{
+  "name": "Assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch -a loginSuccess --reporter ./helper/reporter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^80.0.1",
+    "nightwatch": "^1.3.4"
+  },
+  "dependencies": {
+    "nightwatch-html-reporter": "^2.0.6"
+  }
+}
